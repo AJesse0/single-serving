@@ -13,21 +13,25 @@ figure {
 body {
   /* black 0123456789abcdef white*/
   background-color: #F5DEB3;
-  font-family: "Trebuchet MS", serif;
+  font-family: sans-serif;
   padding: 0 3.5%;
   padding: 1.2rem;
   margin: 0 auto;
 }
 
 .max-width-text {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
 /* --- header --- */
 
 header {
-  padding-top: 4.5%;
+  padding-top: 50px;
+  font-style: oblique;
+  font-size: 20px;
+  text-decoration: underline;
+  color: deeppink;
 }
 
 header h1 {
@@ -53,12 +57,16 @@ img {
   width: auto;
   max-width: 100%;
   height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /*resets */
 body,
 figure {
   margin: 0;
+  letter-spacing: 0.1em;
+  line-height: 25px;
 }
 
 /*resets.detailed */
@@ -70,15 +78,15 @@ body {
 }
 /* links */
 a {
-  color: purple;
+  color: chocolate;
 }
 a:hover {
-  color: pink;
+  color: deeppink;
 }
 
 a:focus,
 a:active {
-  color: yellow:
+  color: blueviolet:
 }
 
 @media only screen and (min-width: 38em) {
