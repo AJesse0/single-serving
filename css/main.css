@@ -12,7 +12,7 @@ figure {
 /* body structure*/
 body {
   /* black 0123456789abcdef white*/
-  background-color: #fff;
+  background-color: #F5DEB3;
   font-family: "Trebuchet MS", serif;
   padding: 0 3.5%;
   padding: 1.2rem;
@@ -55,21 +55,6 @@ img {
   height: auto;
 }
 
-/* ---- headshot --- */
-
-.headshot-byline {
-  padding-top: 1.5rem;
-}
-
-img.headshot {
-  max-width: 3em;
-  vertical-align: middle;
-  border: 1px solid #eee;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  margin-right: .5rem;
-}
-
 /*resets */
 body,
 figure {
@@ -83,54 +68,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* hero figure/img */ /* same as ---figure---? */
-figure.hero {
-  margin: 0 -1em; /*margin negative will place to edge of page */
-}
-
-figure.hero figcaption {
-  margin: 0 1em
-}
-
-/* typographic details */
-p {
-  font-size: 1.2em;
-  line-height: 2; /* unitless, please! */
-}
-
-p.byline {
-  font-weight: bold; /* By Tim is bold */
-  text-transform: uppercase;
-}
-
-/* ---- publication date/time --- */
-
-.publication-datetime {
-  padding-top: 1.5rem;
-}
-
-.publication-datetime time {
-  display: inline;
-  font-size: .8em;
-}
-
-.publication-datetime time:first-child {
-  margin-right: 1rem;
-}
-
 /* links */
 a {
-  color: orange;
+  color: purple;
 }
-
 a:hover {
-  color: blue;
+  color: pink;
 }
 
 a:focus,
 a:active {
-  color: pink;
+  color: yellow:
 }
 
 @media only screen and (min-width: 38em) {
